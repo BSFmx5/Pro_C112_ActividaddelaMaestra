@@ -3,8 +3,8 @@ import shutil
 
 # .exe , .msi,  .gif, .png .jpg, .jpeg, .csv, .pdf , .xls , .xlsx , .ppt , .pptx
 
-from_dir = "C:/Users/ADMIN/Downloads"
-to_dir = "C:/WhiteHatJr/dowanloadedimages"
+from_dir = "C:\Users\MEXICO-0359\Downloads"
+to_dir = "C:\Users\MEXICO-0359\Documents\Imagenes_Archivos"
 
 list_of_files = os.listdir(from_dir)
 #print(list_of_files)
