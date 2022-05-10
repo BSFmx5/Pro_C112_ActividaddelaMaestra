@@ -26,10 +26,10 @@ for file_name in list_of_files:
         #print("path1 " , path1)
         #print("path3 ", path3)
 
-        # Verifica si la carptea/Directorio ruta existe antes de moverla
+        # Verifica si la carpta/Directorio ruta existe antes de moverla
         # De lo contrario, haz una NUEVA carpeta/Directorio luego muevela
         if os.path.exists(path2):
-          print("Movinendo " + file_name + ".....")
+          print("Moviendo " + file_name + ".....")
 
           # Mueve de path1 ---> path3
           shutil.move(path1, path3)
